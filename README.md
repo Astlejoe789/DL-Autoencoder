@@ -3,6 +3,23 @@
 ## AIM
 To develop a convolutional autoencoder for image denoising application.
 
+## PROBLEM STATEMENT
+
+Images captured in real-world conditions often contain noise, which reduces their quality and makes them harder to analyze. A system is needed to automatically remove noise from images and restore their original quality.
+
+The model should learn from noisy images and reconstruct clean images by capturing important features. The goal is to build a convolutional autoencoder that can effectively denoise images and produce outputs that are close to the original images.
+
+### DATASET
+
+The dataset used is the MNIST dataset, which contains grayscale images of handwritten digits.
+
+Total images: 70,000
+Training images: 60,000
+Testing images: 10,000
+Image size: 28 × 28 pixels
+Each image contains a digit from 0 to 9
+
+Noise is artificially added to the images, and the model is trained to remove the noise and reconstruct the original clean images.
 ## DESIGN STEPS
 ### STEP 1: 
 Problem Understanding and Dataset Selection
